@@ -1,0 +1,34 @@
+input[type='text'] { 
+  font-size: 14px;
+}
+
+.entry {
+  border-width: thin;
+  border-style: solid;
+  border-color: grey;
+ 
+  padding: 0px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 95%;
+}
+ 
+.messages {
+  border-collapse: collapse;
+  width: 100%;
+}
+ 
+.messages td, .messages th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.messages th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
